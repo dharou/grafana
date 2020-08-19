@@ -14,7 +14,7 @@ COPY package.json package.json
 
 RUN go run build.go build
 
-# Node build container
+# Node build container2
 FROM node:10.14.2-alpine
 
 # PhantomJS
